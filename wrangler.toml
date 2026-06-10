@@ -16,7 +16,7 @@ crons = ["0 * * * *"]  # 每小时触发，实际执行频率由 Admin 设置的
 binding = "KV"
 id = "5008ecf952754c19b15bd9ced2398e67"
 preview_id = "5008ecf952754c19b15bd9ced2398e67"
-
+ 
 [vars]
 SPEED_TIMEOUT_MS = "5000"   # 源地址延迟阈值（毫秒）
 SITE_TIMEOUT_MS = "3000"    # 站点 API 延迟阈值（毫秒）
