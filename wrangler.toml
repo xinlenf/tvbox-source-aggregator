@@ -18,6 +18,8 @@ id = "5008ecf952754c19b15bd9ced2398e67"
 preview_id = "5008ecf952754c19b15bd9ced2398e67"
  
 [vars]
+# 其他原有变量保持不变
+ADMIN_TOKEN = "15951063581"  # 这里写你想要的密码，纯数字最保险
 SPEED_TIMEOUT_MS = "5000"   # 源地址延迟阈值（毫秒）
 SITE_TIMEOUT_MS = "3000"    # 站点 API 延迟阈值（毫秒）
 FETCH_TIMEOUT_MS = "5000"   # 抓取配置 JSON 超时（毫秒）
